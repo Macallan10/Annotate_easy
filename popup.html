@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page2PDF</title>
+    <link rel="stylesheet" type="text/css" href="./popup.css">
+
+    <script src="jsPDF/es6-promise-auto-min.js"></script>
+    <script src="jsPDF/html2canvas.min.js"></script>
+    <script src="jsPDF/jspdf-html2canvas.min.js"></script>
+    
+    <script src="jsPDF/jspdf.umd.js"></script>
+    <script src="jsPDF/jspdf.umd.min.js"></script>
+    <script src="jsPDF/html2pdf.js"></script>
+
+  </head>
+  <body>
+    <h1>AnnotateEase</h1>
+    <p>
+      Shift + click to add a note.</p>
+     <p>Select text to highlight.
+      
+    </p>
+    <!-- <p>This extension converts any page to a PDF file.</p> -->
+    <button id="convertButton">Convert to PDF</button>
+
+    <div class="loader"></div>
+    <p class="loaderText">Generating PDF...</p>
+    
+    
+
+    <script src="./scripts/popup.js"></script>
+  </body>
+</html>
